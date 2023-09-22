@@ -52,9 +52,13 @@ You cannot use the certificate and key in their current locations, as these may 
 ```
 Install certificate and key issued by Acme script
 
-Run the X-UI Install Script
+Run the X-UI Install Script Chinese
 ```
 bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
+```
+Run the X-UI Install Script English
+```
+bash <(curl -Ls https://raw.githubusercontent.com/NidukaAkalanka/x-ui-english/master/install.sh)
 ```
 ------------------------------------------
 
