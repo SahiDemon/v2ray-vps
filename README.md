@@ -6,7 +6,9 @@ Manage Script
 ## :heavy_exclamation_mark: Requirements
 
 * Vps with Ubuntu 20.04 or Ubuntu-latest OS.
+* domain
 
+Go to [DUCKDNS](https://www.duckdns.org/) and create a domain
 ------------------------------------------
 ## :book: Installation - Without DNS
 
