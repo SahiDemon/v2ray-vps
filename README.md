@@ -63,6 +63,18 @@ Run the X-UI Install Script English
 bash <(curl -Ls https://raw.githubusercontent.com/NidukaAkalanka/x-ui-english/master/install.sh)
 ```
 ------------------------------------------
+Private Cert
+```
+/root/private.key
+```
+
+
+Cert
+```
+/root/cert.crt
+```
+
+
 
 ## :book: How To Connect
 This Script is for automating connect proxy setup
