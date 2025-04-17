@@ -51,7 +51,7 @@ PACKAGE_UNINSTALL=("apt -y autoremove" "apt -y autoremove" "yum -y autoremove" "
 CERT_KEY_PATH="/root/sahidemon.key" # Changed path slightly for branding
 CERT_FULLCHAIN_PATH="/root/sahidemon.crt" # Changed path slightly for branding
 ACME_SCRIPT_PATH="$HOME/.acme.sh/acme.sh"
-XUI_INSTALL_URL="https://raw.githubusercontent.com/NidukaAkalanka/x-ui-english/master/install.sh" # Using the URL from Script 1 for X-UI install part
+XUI_INSTALL_URL="https://raw.githubusercontent.com/SahiDemon/v2ray-vps/refs/heads/main/install.sh?token=GHSAT0AAAAAAC7Y62SPOG3Z2KDKKGTPHLLG2AA3SEQ" # Using the URL from Script 1 for X-UI install part
 
 
 # --- Pre-flight Checks ---
@@ -294,7 +294,7 @@ install_update_xui() {
     check_status "Copying systemd service file"
 
     print_info "Setting up 'x-ui' command..."
-    wget -N --no-check-certificate https://raw.githubusercontent.com/NidukaAkalanka/x-ui-english/main/x-ui.sh -O /usr/bin/x-ui
+    wget -N --no-check-certificate https://raw.githubusercontent.com/SahiDemon/v2ray-vps/refs/heads/main/x-ui.sh?token=GHSAT0AAAAAAC7Y62SPBX44UOENQEYNXKJI2AA3TPA -O /usr/bin/x-ui
     check_status "Downloading x-ui command script"
     chmod +x /usr/local/x-ui/x-ui.sh
     chmod +x /usr/bin/x-ui
