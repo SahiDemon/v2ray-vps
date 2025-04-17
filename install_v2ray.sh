@@ -13,10 +13,6 @@ read domain
 echo "Updating system packages..."
 apt-get update -y && apt-get upgrade -y
 
-# Restart the VPS
-echo "Rebooting system..."
-sudo reboot
-
 # Install curl and socat
 echo "Installing curl and socat..."
 apt install curl socat -y
