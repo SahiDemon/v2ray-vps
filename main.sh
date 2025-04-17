@@ -506,7 +506,7 @@ show_final_summary() {
     print_warning "   - Use the 'x-ui' command for managing the panel (start, stop, logs, etc.)."
 
     echo -e "\n------------------------------------------------------------------------------"
-    echo -e                            <<<<"SAHIDEMON">>>>
+    echo -e                            "<<<<SAHIDEMON>>>>"
     echo -e "------------------------------------------------------------------------------"
 
 }
