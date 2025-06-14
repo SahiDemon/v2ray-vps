@@ -294,7 +294,7 @@ install_update_xui() {
     check_status "Copying systemd service file"
 
     print_info "Setting up 'x-ui' command..."
-    wget -N --no-check-certificate https://raw.githubusercontent.com/SahiDemon/v2ray-vps/refs/heads/main/x-ui.sh?token=GHSAT0AAAAAAC7Y62SPBX44UOENQEYNXKJI2AA3TPA -O /usr/bin/x-ui
+    wget -N --no-check-certificate https://raw.githubusercontent.com/SahiDemon/v2ray-vps/refs/heads/main/x-ui.sh?token=GHSAT0AAAAAAC7Y62SPGVXKNVLI2EJL7MJW2CNEKUQ -O /usr/bin/x-ui
     check_status "Downloading x-ui command script"
     chmod +x /usr/local/x-ui/x-ui.sh
     chmod +x /usr/bin/x-ui
