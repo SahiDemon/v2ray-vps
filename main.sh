@@ -51,7 +51,7 @@ PACKAGE_UNINSTALL=("apt -y autoremove" "apt -y autoremove" "yum -y autoremove" "
 CERT_KEY_PATH="/root/sahidemon.key" # Changed path slightly for branding
 CERT_FULLCHAIN_PATH="/root/sahidemon.crt" # Changed path slightly for branding
 ACME_SCRIPT_PATH="$HOME/.acme.sh/acme.sh"
-XUI_INSTALL_URL="https://raw.githubusercontent.com/SahiDemon/v2ray-vps/refs/heads/main/install.sh?token=GHSAT0AAAAAAC7Y62SPOG3Z2KDKKGTPHLLG2AA3SEQ" # Using the URL from Script 1 for X-UI install part
+XUI_INSTALL_URL="https://raw.githubusercontent.com/SahiDemon/v2ray-vps/refs/heads/main/install.sh?token=GHSAT0AAAAAAC7Y62SOMMRKCY5MA2Y6ZU2K2CNEJFQ" # Using the URL from Script 1 for X-UI install part
 
 
 # --- Pre-flight Checks ---
