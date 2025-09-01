@@ -14,7 +14,7 @@ Go to [DUCKDNS](https://www.duckdns.org/) and create a domain
 
 Run Full autmated script 
 ```
-bash <(curl -s "https://raw.githubusercontent.com/SahiDemon/v2ray-vps/refs/heads/main/main.sh?token=GHSAT0AAAAAAC7Y62SPIMY6G5V425JT46IW2AA2VHA")
+bash <(curl -s "https://raw.githubusercontent.com/SahiDemon/v2ray-vps/refs/heads/main/main.sh")
 
 ```
 
